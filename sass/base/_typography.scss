@@ -4,14 +4,13 @@ body {
   line-height: 1.7;
 }
 
-.header-heading {
-  font-size: 5rem;
-  letter-spacing: 1.7;
-  color: $color-white;
-}
-
-.size-secondary {
+.heading-secondary {
   font-size: 2rem;
   color: $color-grey-light;
   letter-spacing: .3rem;
+}
+
+.heading-primary {
+  font-size: 6rem;
+  color: $color-white;
 }

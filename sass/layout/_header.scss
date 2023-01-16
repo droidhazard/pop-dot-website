@@ -7,9 +7,12 @@
   position: relative;
 
   & .home-wrapper {
-    margin: 15rem 14.4rem;
+    margin: 0 14.4rem;
     padding: 3rem;
-    height: 100px;
+    // height: 100px;
     max-width: 800px;
+    padding: 15rem 0;
+    word-wrap: break-word;
+    line-height: 1.1;
   }
 }
