@@ -1,5 +1,23 @@
 {
+  "name": "popdot",
+  "version": "1.0.0",
+  "description": "Another Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass ./sass/main.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/droidhazard/pop-dot-website.git"
+  },
+  "author": "droid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/droidhazard/pop-dot-website/issues"
+  },
+  "homepage": "https://github.com/droidhazard/pop-dot-website#readme",
   "devDependencies": {
-    "npm-sass": "^3.1.0"
+    "node-sass": "^8.0.0"
   }
 }
