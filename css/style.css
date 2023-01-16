@@ -22,18 +22,22 @@ body {
   letter-spacing: 1.7;
   color: #fff; }
 
+.size-secondary {
+  font-size: 2rem;
+  color: #ccc;
+  letter-spacing: .3rem; }
+
 .navbar {
   height: 96px;
   width: 100%;
   position: relative;
-  top: 0;
   z-index: 500;
   display: flex;
   justify-content: space-between;
   align-items: center; }
   .navbar .brand-logo {
     display: inline-block;
-    margin-left: 40px; }
+    margin-left: 4rem; }
     .navbar .brand-logo a {
       display: block;
       margin-top: 9px;
@@ -41,11 +45,36 @@ body {
       .navbar .brand-logo a img {
         max-width: 100%;
         height: auto; }
+  .navbar .nav-toggle {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-decoration: none;
+    position: fixed;
+    top: 3.8rem;
+    right: 4rem; }
+    .navbar .nav-toggle span:nth-child(1) {
+      position: relative;
+      top: -4px;
+      margin-right: 1.3rem;
+      color: #39b54a; }
+      .navbar .nav-toggle span:nth-child(1):hover {
+        color: #fff; }
+    .navbar .nav-toggle span:nth-child(2) i {
+      font-size: 3.5rem; }
 
 .header {
   height: 110vh;
   width: 100%;
-  background-image: url(../img/back.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/back.jpg);
   background-size: cover;
   background-position: center;
   position: relative; }
+  .header .home-wrapper {
+    margin: 15rem 14.4rem;
+    padding: 3rem;
+    height: 100px;
+    max-width: 800px; }

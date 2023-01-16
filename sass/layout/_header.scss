@@ -1,8 +1,15 @@
 .header {
   height: 110vh;
   width: 100%;
-  background-image: url(../img/back.jpg);
+  background-image: linear-gradient(to right , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/back.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
+
+  & .home-wrapper {
+    margin: 15rem 14.4rem;
+    padding: 3rem;
+    height: 100px;
+    max-width: 800px;
+  }
 }
