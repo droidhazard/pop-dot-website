@@ -1,2 +1,26 @@
-* {
-  border: 1px solid green; }
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  transition: all 0.3s ease-out; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #777; }
+
+.header {
+  height: 110vh;
+  width: 100%;
+  background-image: url(../img/back.jpg);
+  background-size: cover;
+  background-position: center; }
