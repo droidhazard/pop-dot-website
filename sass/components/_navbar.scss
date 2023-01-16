@@ -1,0 +1,26 @@
+.navbar {
+  height: 96px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  z-index: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & .brand-logo {
+    display: inline-block;
+    margin-left: 40px;
+
+    & a {
+      display: block;
+      margin-top: 9px;
+      width: 8rem;
+
+      & img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
